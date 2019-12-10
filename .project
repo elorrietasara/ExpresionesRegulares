@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>ExpresionesRegulares</name>
-<<<<<<< HEAD
-	<comment>Project ExpresionesRegulares created by Buildship.</comment>
-=======
 	<comment></comment>
->>>>>>> 0deda17b12e416eb0dd508cf56eb1692c0e21187
 	<projects>
 	</projects>
 	<buildSpec>
@@ -14,7 +10,6 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-<<<<<<< HEAD
 		<buildCommand>
 			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
 			<arguments>
@@ -24,10 +19,5 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
-=======
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
->>>>>>> 0deda17b12e416eb0dd508cf56eb1692c0e21187
 	</natures>
 </projectDescription>
