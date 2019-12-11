@@ -4,13 +4,14 @@ import org.apache.commons.math3.geometry.spherical.oned.ArcsSet.Split;
 
 public class Regla {
 
-	public static void Validar(String texto, String regexSinSeparar)
+	public static boolean Validar(String texto, String regexSinSeparar)
 	{
 		String[] partesRegex=SepararRegex(regexSinSeparar);
 		
-		System.out.println(ValidarTamano(texto,partesRegex[0]));
-		System.out.println(ValidarTextoPorLetra(texto, partesRegex[1]));
-		System.out.println(ValidarLiteral(texto, partesRegex[2]));
+		if(ValidarTamano(texto,partesRegex[0]) && ValidarTextoPorLetra(texto, partesRegex[1]) && ValidarLiteral(texto, partesRegex[2]))
+			return true;
+		else
+			return false;
 		
 	}
 	
